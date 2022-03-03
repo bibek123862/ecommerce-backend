@@ -7,9 +7,7 @@ const { Payment } = require('../models/Payment');
 
 const async = require('async');
 
-//=================================
-//             User
-//=================================
+
 
 router.get("/auth", auth, (req, res) => {
     res.status(200).json({
